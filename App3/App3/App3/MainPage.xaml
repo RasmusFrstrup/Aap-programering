@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.MainPage">
+
+    <ScrollView>
+        <StackLayout BackgroundColor="Green">
+            <Frame BackgroundColor="PaleGreen">
+                <StackLayout>
+                    <Label x:Name="Profile" Text="Profile" HorizontalOptions="Center" FontSize="Title" TextColor="Black"/>
+
+                    <Frame BackgroundColor="LimeGreen">
+                        <StackLayout>
+                            <Frame CornerRadius="100" HeightRequest="175" WidthRequest="175" HorizontalOptions="Center" BackgroundColor="Aqua">
+                                <Image Source="https://gudenaasammenslutningen.dk/billeder/statbilleder/9153.jpg"/>
+                            </Frame>
+                        </StackLayout>
+                    </Frame>
+
+                    <Frame BackgroundColor="LimeGreen">
+                        <StackLayout BackgroundColor="LimeGreen">
+                            <Button Text="About" Clicked="Button_Clicked" BackgroundColor="Green"/>
+                            <Button Text="Skills" Clicked="Button_Clicked_1" BackgroundColor="Green"/>
+                            <Button Text="Education" Clicked="Button_Clicked_2" BackgroundColor="Green"/>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

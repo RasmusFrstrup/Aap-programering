@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.Education">
+    <ScrollView>
+        <StackLayout BackgroundColor="PaleGreen">
+            <Frame BackgroundColor="PaleGreen">
+                <StackLayout>
+                    <Label x:Name="Education" Text="Education info" HorizontalOptions="Center" FontSize="Title" TextColor="Black"/>
+
+                    <Frame BackgroundColor="LimeGreen">
+                        <StackLayout>
+                            <Label x:Name="Folkeskolen" Text="Ulstrup Folkeskole 2009 - 2019" FontSize="Medium" TextColor="Black"/>
+                            <Label x:Name="Erhvervs uddanelse" Text="Mercantec 2019 - Present Day" FontSize="Medium" TextColor="Black"/>
+                            
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

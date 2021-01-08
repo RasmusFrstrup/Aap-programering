@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.Skills">
+    <ScrollView>
+        <StackLayout BackgroundColor="PaleGreen">
+            <Frame BackgroundColor="PaleGreen">
+                <StackLayout>
+                    <Label x:Name="Skills" Text="Skills" HorizontalOptions="Center" FontSize="Title" TextColor="Black"/>
+
+                    <Frame BackgroundColor="LimeGreen">
+                        <StackLayout>
+                            <Label x:Name="Html" Text="Html " FontSize="Medium" TextColor="Black"/>
+                            <Label x:Name="css" Text="Css" FontSize="Medium" TextColor="Black"/>
+                            <Label x:Name="MySql" Text="MySql" FontSize="Medium" TextColor="Black"/>
+                            <Label x:Name="C#" Text="C#" FontSize="Medium" TextColor="Black"/>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
